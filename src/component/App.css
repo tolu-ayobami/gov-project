@@ -1,0 +1,653 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700 200 300 400 600&display=swap");
+
+
+:root{
+    --ff-primary: "Inter", sans-serif;
+    --fw-:"700";
+  }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.aboutall{
+    margin-top: 400px;
+}
+
+.headlogo{
+    width: 85%;
+}
+
+.logoall{
+    margin-left: 20px;
+    display: flex;  
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+    background-color: white;
+   
+}
+.header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+
+.search{
+    padding: 7px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+   
+}
+
+.searchinput{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #78E19D;
+    border-radius: 18px;
+    width: 440px;
+    padding: 5px;
+    margin-right: 150px;
+    background-color: white;
+    
+}
+
+
+.searchicon{
+    color: rgb(196, 196, 196);
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.navs{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    color: #10783D;
+}
+
+#basic-nav-dropdown{
+    color: #10783D;
+}
+
+.al:hover{
+    border-bottom: 5px solid #FBF874;
+}
+
+.ol{
+    overflow-y: scroll;
+    height: 300px;
+}
+
+.navall{
+    background-color:white;
+    color: #10783D;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+.vecimg{
+    width: 20px
+}
+
+.mail{
+    display: flex;
+    align-items: center;
+    color: #10783D;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 60px;
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.serviceall img{
+    width: 30px;
+    
+}
+
+.serviceall{
+    display: flex;
+    gap: 20px;
+    
+}
+.service h4{
+    text-decoration: underline;
+}
+
+.building1all{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+   
+}
+
+
+.building1{
+    background: rgba(31, 31, 31, 0.37);
+   padding: 30px;
+   width: 100%;
+   color: white;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   backdrop-filter: blur(4.5px);
+}
+
+
+.building2{
+    background: rgba(31, 31, 31, 0.37);
+   width: 45%;
+   padding: 50px 20px 20px 20px;
+   color: white;
+   overflow: hidden;
+   backdrop-filter: blur(4.5px);
+}
+
+.butt{
+  color: white;
+  outline: none;
+  border: none;
+ padding: 10px;
+ background-color: green;
+ width: 150px;
+}
+
+
+.centerall{
+    margin-top:180px;
+}
+
+.buildingsection{
+display: flex;
+background-image: url("../assets/Rectangle 7.png");
+width: 100%;
+object-fit: contain;
+background-repeat: no-repeat;
+background-size:cover;
+justify-content: space-around;
+padding-top: 200px;
+padding-bottom: 220px;
+margin: auto;
+
+}
+
+.perform{
+   width: 32%;
+   padding: 36px 10px 0px 20px;
+  background-color: white;
+  box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.11);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+}
+
+.perform img{
+    width: 35%;
+}
+
+.foster{
+    width:60%;
+    
+}
+
+.performall{
+    display: flex;
+    justify-content: space-between
+    
+}
+
+
+.fost img{
+    width: 20px;
+}
+
+
+.fost{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.fostbtn{
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: green;
+    margin-left: 32px;
+    width: 150px;
+}
+
+
+
+.welcome{
+width: 70%;
+display: flex;
+flex-direction: column;
+gap:10px;
+background-image: url("../assets/Rectangle 4.png");
+object-fit: cover;
+background-size: cover;
+padding: 100px  50px 50px 100px;
+background-repeat: no-repeat;
+overflow: hidden;
+
+
+}
+
+
+.welcomesection{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding-top: 60px;
+    margin: auto;
+    overflow: hidden;
+   
+}
+
+
+.wlcmimg{
+width: 30%;
+margin-left: -40px;
+
+}
+
+
+
+.welcomeimg{
+    width: 350px;
+}
+
+
+.who{
+    width: 90%;
+}
+
+.welcome h1 {
+    color: green;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.welcome p{
+    font-size: 21px;
+}
+
+.welcome h6 {
+    color: green;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
+.keyall{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    background-color: black;
+    color: white;
+    padding: 70px 40px 70px 40px;
+    justify-content: space-around;
+}
+
+.key1, .key2{
+    width: 40%;  
+}
+
+.keybtn{
+    outline: none;
+    background-color: green;
+     color: white;
+     padding: 10px;
+     width: 150px;
+     border: none;
+
+}
+    
+
+.key1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+.partnership{
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.partnership h1{
+    text-align: center;
+    color: green;
+    width: 60%;
+    margin: auto;
+    font-weight: 700;
+}
+.partlogos{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    overflow-x: auto;
+}
+
+.partlogos img{
+width:100%;
+}
+
+
+.roadmaptext{
+    width: 40%;
+    margin: auto;
+}
+.roadmap{
+    text-align: center;
+    margin: auto;
+    background-image: url("../assets/Rectangle 11.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: white;
+    padding: 100px 0px 100px 0px;
+    margin-top: 70px;
+}
+
+
+.mapbtn{
+    outline: none;
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    width: 150px;
+
+}
+
+.press img{
+    width: 100%;
+}
+
+.nov{
+    color: green;
+    font-size: 15px;
+}
+
+.presswords{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.press{
+    width: 45%;
+    box-shadow: 0px 2.24283px 8.22371px 0.74761px rgba(0, 0, 0, 0.15);
+
+}
+
+.pressall{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 100%;
+}
+
+.release{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.releasebox{
+    display: flex;
+    gap: 20px;
+}
+
+.releasebox img{
+    width: 160px;
+}
+
+.release h1{
+color: green;
+text-decoration: underline;
+}
+
+
+
+.rebox1{
+    display: flex;
+    flex-direction: column;
+}
+
+.updated{
+    background-image: url("../assets/Rectangle 5.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.updatewords{
+    margin-left: 30px;
+}
+
+
+.updatewords h1{
+    color: #00FB7D; 
+}
+
+.updatewords p{
+    color: white;
+    font-size: 15px;
+}
+
+.emailcover input{
+    padding: 5px;
+    color: gray;
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+
+.emailcover{
+    width: 300px;
+    background-color: white;
+    padding: 8px;
+
+}
+
+.subscribe{
+    padding:13px;
+    width: 100px;
+    outline: none;
+    border: none;
+    background-color: #00B04E;
+    color: white;
+    cursor: pointer;
+}
+
+.updatedemail{
+    display: flex;
+    padding-right:60px;
+}
+
+.serviceportals{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+
+.serviceportals h1{
+    color:#10783D;
+    font-weight: 700;
+}
+
+.port{
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+}
+
+.serviceportals p{
+    font-weight: bold;
+}
+
+.box{
+    box-shadow: 2.72619px 2.72619px 17.72024px 0px rgba(0, 0, 0, 0.11);
+    padding: 23px;
+    width: 35%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.box:hover{
+    background-color: #83fabf;
+    cursor: pointer;
+}
+
+.bigbox h4{
+    font-size: 22px;
+}
+
+.smallbox1 h4, .smallbox2 h4, .smallbox3 h4, .smallbox4 h4, .smallbox5 h4, .smallbox6 h4{
+    font-size: 20px;
+}
+
+
+
+.lin{
+    color: #00B04E;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.bigbox{
+    display: flex;
+    gap: 25px;
+    
+}
+
+.boxes{
+    margin-top: 50px;
+    width: 90%;
+    margin: auto;
+}
+
+.smallbox1, .smallbox2, .smallbox3, .smallbox4, .smallbox5, .smallbox6{
+    display: flex;
+    margin-top: 30px;
+    gap: 25px;
+}
+
+
+.about, .contactus, .connect{
+    width: 26%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.about p, .contactus p, .connect p{
+    color: white;
+    line-height: 23px;
+  
+}
+
+.connect img{
+    width: 75%;
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+
+.footerall{
+    background-color: black;
+    padding: 70px 0px 40px 0px;
+  
+}
+
+.connect h2, .contactus h2, .about h2{
+    color:#00FB7D;
+    font-weight: 600;
+}
+
+.cons{
+    display: flex;
+}
+
+.dash{
+    background-color: #EFEC89;
+    width: 60px;
+    height: 6px;
+}
+
+.contactusall{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 15px;
+}
+
+.hr{
+    background-color: #0D974C;
+    height: 0.1px;
+}
+
+.footer2 p{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer2{
+    margin-top: 40px;
+}
